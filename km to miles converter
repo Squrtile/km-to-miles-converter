@@ -1,0 +1,7 @@
+print("hello welcome to my kilometer to miles converter")
+Name=input("what is your Name?:")
+km_distance=input(str('what is the distance in km you want to convert to miles?:'))
+km_distance=(float(km_distance))
+miles_distance=(km_distance/1.609)
+
+print('ok '+ Name.title() + " the distance of " + (str(km_distance)) + " in miles is "+ (str(miles_distance))
